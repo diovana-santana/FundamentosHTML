@@ -5,5 +5,73 @@
   </head>
   <body>
     <h1>Criação de Tabelas no HTML</h1>
+    <table>
+      <tr>
+        <th>Coluna 1</th>
+        <!--linha cabeçalho -->
+        <th>Coluna 2</th>
+      </tr>
+      <tr>
+        <!--linha Tabelaa-->
+        <td>Dado 1</td>
+        <td>Dado 2</td>
+      </tr>
+      <tr>
+        <td>Dado 3</td>
+        <td>Dado 4</td>
+      </tr>
+    </table>
+    <hr />
+    <!--regua para separar as tabelas-->
+    <h2>Tabelas com Cabeçalho</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Profissão</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>João</td>
+          <td>30</td>
+          <td>Engenheiro</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>30</td>
+          <td>Advogada</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h2>Tabelas com celulas personalizadas</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <!--colspan para limitar o tamanho da coluna-->
+          <th colspan="2">Informações Pessoais</th>
+          <th>Contato</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tbody>
+          <tr>
+            <td>Nome: </td>
+            <td>João</td>
+            <!--rowspan que ira ocupar duas linhas-->
+            <td rowspan="2">Telefone: 1234</td>
+          </tr>
+          <tr>
+            <td>Idade</td>
+            <td>30</td>
+          </tr>
+
+        </tbody>
+
+      </tbody>
+    
+    </table>
   </body>
 </html>
