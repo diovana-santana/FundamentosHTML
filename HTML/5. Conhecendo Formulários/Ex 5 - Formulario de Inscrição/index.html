@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link to external CSS file -->
+  </head>
+  <body>
+    <h1>Formulario de Inscrição</h1>
+    
+    <form action="#" method="post">
+      <div>
+        <label for="nome">Nome:</label>
+        <br>
+        <input type="text" id="nome" name="nome" required />
+      </div>
+      <div>
+      <label for="email">Email:</label>
+      <br/>
+      <input type="email" id="email" name="email" required />
+      </div>
+      <div></div>
+      <label for="telefone">Whatsapp:</label>
+      <br>
+      <input type="text" id="telefone" name="telefone" required />
+    </div>
+<div>
+      <label>Area de Atuação:</label>
+      <br/>
+      <input type="radio" id="area" name="desenvolvimento" value="desenvolvimento" />
+      <label for="desenvolvimento">Desenvolvimento</label>
+
+      <input type="radio" id="qa" name="area" value="qa" />
+      <label for="qa">QA</label>
+
+      <input type="radio" id="AnaliseDados" name="area" value="AnaliseDados" />
+      <label for="AnaliseDados">Analise de Dados</label>
+
+      <input type="radio" id="infra" name="area" value="infra" />
+      <label for="infra">Infraestrutura</label>
+      <br /><br />
+</div>
+<div>
+      <label for="observacoes">Observações:</label>
+      <br>
+      <textarea
+        name="observacoes" id="observacoes"></textarea>
+      </div>
+
+<br>
+      <input type="checkbox" id="ofertas" name="ofertas" checked required />
+      <label for="ofertas">Desejo receber novidades e ofertas por email.</label>
+      <br>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
